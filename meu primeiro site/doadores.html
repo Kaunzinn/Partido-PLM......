@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Doadores - Monarquia Brasileira</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #008000; /* Verde Brasil */
+            margin: 0;
+            padding: 0;
+            color: black; /* Branco */
+        }
+        header {
+            background-color: #FFFF00; /* Amarelo Brasil */
+            padding: 20px 0;
+            text-align: center;
+            color: #008000; /* Verde Brasil */
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+        }
+        .menu {
+            background-color: #008000; /* Verde Brasil */
+            text-align: center;
+            padding: 10px 0;
+        }
+        .menu a {
+            color: blue; /* Branco */
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* Branco */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 20px;
+            color: #008000; /* Verde Brasil */
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .donor-list {
+            list-style: none;
+            padding: 0;
+        }
+        .donor-list li {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .donor-list .premium {
+            color: #FF0000; /* Vermelho Brasil */
+        }
+        .donor-list .basic {
+            color: #0000FF; /* Azul Brasil */
+        }
+        .interactive-button {
+            background-color: #FF0000; /* Vermelho Brasil */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        .interactive-button:hover {
+            background-color: #FFFF00; /* Amarelo Brasil */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Imagem/download.png" alt="Logo do Brasil"> <!-- Substitua 'logo_brasil.png' pelo caminho da sua logo -->
+        <h1>Partido PLM<h1>
+        <div class="menu">
+            <a href="sorteio.html" target="_blank">Sorteio</a>
+            <a href="inicio.html" target="_blank">Início</a>
+            <a href="apoie.html" target="_blank">Apoie</a>
+            <a href="doadores.html" target="_blank">Doadores</a>
+        </div>
+    </header>
+    <div class="container" id="doadores">
+        <h2>Lista de Doadores</h2>
+        <ul class="donor-list">
+            <li class="premium">Leonardo Premium Valor = 150,00</li>
+            <li class="premium">Janaina Premium Valor = 150,00</li>
+            <li class="basic">Sara Básico Valor = 50,00</li>
+            <li class="basic">Kauan Valor = 50,00</li>
+            <!-- Adicione mais nomes de doadores conforme necessário, com a classe "premium" ou "basic" para diferenciar -->
+        </ul>
+        <a href="inicio.html" class="interactive-button">Voltar ao Início</a>
+    </div>
+</body>
+</html>
